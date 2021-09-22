@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/categoryGroup"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/category_menu"
+            android:title="Category"
+            android:visible="true" />
+        <item
+            android:id="@+id/cat_top"
+            android:title="Top News"
+            android:icon="@drawable/ic_top"
+            android:visible="false"
+            />
+        <item
+            android:id="@+id/cat_business"
+            android:title="Business"
+            android:visible="false"
+            android:icon="@drawable/ic_business"/>
+        <item
+            android:id="@+id/cat_science"
+            android:title="Science"
+            android:visible="false"
+            android:icon="@drawable/ic_science"/>
+        <item
+            android:id="@+id/cat_entertain"
+            android:title="Entertainment"
+            android:visible="false"
+            android:icon="@drawable/ic_entertainment"/>
+    </group>
+
+
+    <group
+        android:id="@+id/countryGroup"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/country_menu"
+            android:title="Country"
+            android:visible="true" />
+        <item
+            android:id="@+id/country_us"
+            android:title="USA"
+            android:visible="false"
+            android:icon="@drawable/wake_island"/>
+        <item
+            android:id="@+id/country_in"
+            android:title="India"
+            android:visible="false"
+            android:icon="@drawable/india"/>
+        <item
+            android:id="@+id/country_jp"
+            android:title="Japan"
+            android:visible="false"
+            android:icon="@drawable/japan"/>
+    </group>
+</menu>
